@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:backgroundTint="#779eb2"
+        app:cardCornerRadius="1000dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="40dp"
+        >
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/q"
+            android:backgroundTint="@color/white"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="5dp">
+
+        </ImageView>
+    </androidx.cardview.widget.CardView>
+
+    <ImageButton
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:background="@drawable/back1"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp">
+    </ImageButton>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="106dp"
+        android:layout_marginStart="30dp"
+        android:backgroundTint="#8eb1c2"
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/triangle2"
+            android:layout_marginTop="300dp"
+            android:backgroundTint="#80ACC8D7"
+            >
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/triangle"
+            android:backgroundTint="#80ACC8D7">
+        </ImageView>
+    </androidx.cardview.widget.CardView>
+
+
+</FrameLayout>

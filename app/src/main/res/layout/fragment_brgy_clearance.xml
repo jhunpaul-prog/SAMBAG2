@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/homepage">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#779eb2"
+        app:cardCornerRadius="20dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="46dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BARANGAY CLEARANCE"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="8dp">
+
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageButton
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:background="@drawable/back1"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp">
+    </ImageButton>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="530dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="30dp"
+        android:backgroundTint="#8eb1c2"
+        app:cardCornerRadius="10dp">
+
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="15dp"
+            android:text="NAME: "
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold">
+        </TextView>
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="45dp"
+            android:ems="10"
+            android:inputType="text"
+            android:padding="10dp"
+            android:backgroundTint="@color/white"
+            android:background="@color/white"
+            android:hint="Last Name, First Name, M.I.">
+        </EditText>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="95dp"
+            android:text="AGE: "
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:textStyle="bold">
+        </TextView>
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="125dp"
+            android:ems="10"
+            android:inputType="text"
+            android:padding="10dp"
+            android:backgroundTint="@color/white"
+            android:background="@color/white">
+        </EditText>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="175dp"
+            android:text="SEX: "
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold">
+        </TextView>
+
+        <EditText
+            android:id="@+id/sex"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="205dp"
+            android:ems="10"
+            android:inputType="text"
+            android:padding="10dp"
+            android:backgroundTint="@color/white"
+            android:background="@color/white">
+        </EditText>
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="255dp"
+            android:text="STATUS: "
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:textStyle="bold">
+        </TextView>
+
+        <EditText
+            android:id="@+id/status"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="285dp"
+            android:ems="10"
+            android:inputType="text"
+            android:padding="10dp"
+            android:backgroundTint="@color/white"
+            android:background="@color/white">
+        </EditText>
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="335dp"
+            android:text="ADDRESS: "
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:textStyle="bold">
+        </TextView>
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="365dp"
+            android:ems="10"
+            android:inputType="text"
+            android:padding="10dp"
+            android:backgroundTint="@color/white"
+            android:background="@color/white">
+        </EditText>
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="415dp"
+            android:text="PURPOSE: "
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:textStyle="bold">
+        </TextView>
+
+        <EditText
+            android:id="@+id/purpose"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="445dp"
+            android:ems="10"
+            android:inputType="text"
+            android:padding="10dp"
+            android:backgroundTint="@color/white"
+            android:background="@color/white">
+        </EditText>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="645dp"
+        android:backgroundTint="#779eb2"
+        android:layout_marginStart="130dp"
+        android:text="SUBMIT"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:strokeColor="#446879"
+        app:strokeWidth="1dp">
+    </Button>
+
+</FrameLayout>

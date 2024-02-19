@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navbar"
+    app:startDestination="@id/homepage">
+
+    <fragment
+        android:id="@+id/indigency"
+        android:name="com.example.sambag2.indigency"
+        android:label="fragment_indigency"
+        tools:layout="@layout/fragment_indigency" />
+    <fragment
+        android:id="@+id/homepage"
+        android:name="com.example.sambag2.homepage"
+        android:label="fragment_homepage"
+        tools:layout="@layout/fragment_homepage" />
+    <fragment
+        android:id="@+id/help"
+        android:name="com.example.sambag2.help"
+        android:label="fragment_help"
+        tools:layout="@layout/fragment_help" />
+    <fragment
+        android:id="@+id/brgy_clearance"
+        android:name="com.example.sambag2.brgy_clearance"
+        android:label="fragment_brgy_clearance"
+        tools:layout="@layout/fragment_brgy_clearance" />
+    <fragment
+        android:id="@+id/bpermit"
+        android:name="com.example.sambag2.bpermit"
+        android:label="fragment_bpermit"
+        tools:layout="@layout/fragment_bpermit" />
+</navigation>

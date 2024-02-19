@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/homepage">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#779eb2"
+        app:cardCornerRadius="20dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="45dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BUSINESS PERMIT"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="7dp">
+
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageButton
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:background="@drawable/back1"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp">
+    </ImageButton>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="30dp"
+        android:backgroundTint="#8eb1c2"
+        app:cardCornerRadius="10dp">
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="630dp"
+        android:backgroundTint="#779eb2"
+        android:layout_marginStart="130dp"
+        android:text="SUBMIT"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:strokeColor="#446879"
+        app:strokeWidth="1dp">
+
+    </Button>
+</FrameLayout>
